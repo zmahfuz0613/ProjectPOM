@@ -14,7 +14,7 @@ public class UwatchMoviePage extends NetflixLoginPage{
     }
 
     public void clickSignIn() {
-        ut.clickSignIn(signIn);
+        ut.clickElement(signIn);
     }
 
 }

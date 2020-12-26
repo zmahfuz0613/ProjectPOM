@@ -6,8 +6,8 @@ import util.TestBase;
 
 public class LoginPageTest extends TestBase
 {
-    NetflixLoginPage page = new NetflixLoginPage()git ;
-    @Test(priority = 2)
+    NetflixLoginPage page = new NetflixLoginPage();
+    @Test
     public void NetflixTest() {
         page.goToLoginPage();
         page.inputUserName();

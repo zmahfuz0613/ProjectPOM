@@ -21,25 +21,15 @@ public class TestUtil extends TestBase {
     }
 
 
-    public void clickSignIn(By element) {
+    public void clickElement(By element) {
         WebElement localElement = waitForElement(element);
         localElement.click();
     }
 
     //LoginPage functions
 
-    public void insertUserName(By element, String text) {
+    public void enterText(By element, String text) {
         WebElement localElement = waitForElement(element);
         localElement.sendKeys(text);
-    }
-
-    public void insertPassword(By element, String text) {
-        WebElement localElement = waitForElement(element);
-        localElement.sendKeys(text);
-    }
-
-    public void clickLogin(By element) {
-        WebElement localElement = waitForElement(element);
-        localElement.click();
     }
 }

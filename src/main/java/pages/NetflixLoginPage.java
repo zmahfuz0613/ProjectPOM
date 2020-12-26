@@ -17,15 +17,15 @@ public class NetflixLoginPage {
     }
 
     public void inputUserName() {
-        ut.insertUserName(inputUserName, "zunayed.eshna@gmail.com");
+        ut.enterText(inputUserName, "zunayed.eshna@gmail.com");
     }
 
     public void inputPassword() {
-        ut.insertPassword(inputPassword, "eshna1357");
+        ut.enterText(inputPassword, "eshna1357");
     }
 
     public void clickLogin() {
-        ut.clickLogin(clickSignIn);
+        ut.clickElement(clickSignIn);
     }
 
 }
