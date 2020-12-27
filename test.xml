@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MoApps">
+    <test name="MmChatTest">
+        <classes>
+            <class name="test.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="MoMediaTest">
+        <classes>
+            <class name="test.UwatchMovieTest"/>
+        </classes>
+    </test>
+</suite>
